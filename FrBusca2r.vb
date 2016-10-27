@@ -1,4 +1,4 @@
-﻿Imports DevExpress.Xpo
+Imports DevExpress.Xpo
 Imports DevExpress.Xpo.DB
 Imports DevExpress.XtraEditors.Controls
 Public Class FrBusca2r
@@ -11,9 +11,6 @@ Public Class FrBusca2r
         XpCollectionIdped.Session = Session1
         XpCollectionPedDet.Session = Session1
         XpCollectionestados.Session = Session1
-        'Dim getrecords As SelectedData = Session1.ExecuteQuery("Select * from VistaPedidosDetalle")
-        ''XpDataView1.LoadData(getrecords)
-        'XpDataView1.LoadData(getrecords)
         Me.ActiveControl = SpinEdit1
     End Sub
     Private Sub SimpleButton1_Click(sender As Object, e As EventArgs) Handles SimpleButton1.Click
